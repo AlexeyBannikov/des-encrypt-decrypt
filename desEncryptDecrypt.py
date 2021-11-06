@@ -45,7 +45,7 @@ EK = [
 ]
 
 #перестановка сжатия ключа
-permutationD_CHOICE_2 = [
+CK = [
  
     13, 16, 10, 23, 0,  4,
     2,  27, 14, 5,  20, 9,
@@ -173,7 +173,7 @@ def key_gen(block_1, block_2):
     for i in shiftBits:
         block_1 = leftCircularShift(block_1, i)
         block_2 = leftCircularShift(block_2, i)
-        li.append(permutation(block_1 + block_2, permutationD_CHOICE_2))
+        li.append(permutation(block_1 + block_2, CK))
  
     return li
  
