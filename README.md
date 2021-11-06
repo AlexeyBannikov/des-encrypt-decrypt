@@ -1,1 +1,3 @@
-# des-encrypt-decrypt
+# Алгоритм шифрования DES
+
+Запускать через desStart.py
