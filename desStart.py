@@ -53,4 +53,3 @@ decryptButton = Button(text="Decrypt", command=decryptClicked)
 decryptButton.grid(row=3, column=1)
  
 root.mainloop()
-
