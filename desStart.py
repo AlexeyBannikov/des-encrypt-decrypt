@@ -42,6 +42,9 @@ key_label.grid(row=1, column=0)
  
 letter_entry = Entry(width="50", textvariable=letterText)
 key_entry = Entry(width="50", textvariable=keyText)
+
+letter_entry.insert(0, "Des algorithm on python")
+key_entry.insert(0, "attestat")
  
 letter_entry.grid(row=0, column=1)
 key_entry.grid(row=1, column=1)
